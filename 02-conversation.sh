@@ -7,8 +7,8 @@ echo "Musk:: Nohting, just going to Mars now, will you come?"
 echo "Trump:: Sorry, you carry on! I will come once you come back"
 
 #variables
-person1=Trump
-person2=Musk
+person1=Trump1
+person2=Musk1
 
 echo "$person1:: Hey $person2, How are you?"
 echo "$person2:: Hello $person1, I am fine. How are you doing"
