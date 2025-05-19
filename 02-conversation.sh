@@ -7,7 +7,7 @@ echo "Musk:: Nohting, just going to Mars now, will you come?"
 echo "Trump:: Sorry, you carry on! I will come once you come back"
 
 #variables
-person1=Trump #there should be no space before and after =
+person1=Trump
 person2=Musk
 
 echo "$person1:: Hey $person2, How are you?"
