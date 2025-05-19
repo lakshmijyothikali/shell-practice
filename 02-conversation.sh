@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #variables
-person1=Trump1
-person2=Musk1
+person1=Trumps
+person2=Musks
 
 echo "$person1:: Hey $person2, How are you?"
 echo "$person2:: Hello $person1, I am fine. How are you doing"
