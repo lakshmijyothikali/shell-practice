@@ -15,7 +15,7 @@ dnf list installed mysql
 if [ $? -ne 0 ]
 then
    echo "Mysql is not installed...going to install"
-   dnf install mysql
+   dnf install mysql -y
    if [ $? -eq 0 ]
    then
       echo "Installing mysql success"
@@ -32,7 +32,7 @@ dnf list installed nginx
 if [ $? -ne 0 ]
 then
    echo "nginx is not installed...going to install"
-   dnf install nginx
+   dnf install nginx -y
    if [ $? -eq 0 ]
    then
       echo "Installing nginx success"
