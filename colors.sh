@@ -7,7 +7,7 @@ Y="\e[33m"
 N="\e[0m"
 
 
-if[USERID -ne 0]
+if[ USERID -ne 0 ]
 then
    echo "$R ERROR : please this script run with root access $N"
    exit 1
