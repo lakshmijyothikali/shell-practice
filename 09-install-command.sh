@@ -11,7 +11,8 @@ then
 
 
 dnf list installed mysql
-
+# check already installed or not. if Installed $? is 0, then 
+# If not installed $? is not 0. expression is true
 if [ $? -ne 0 ]
 then
    echo "Mysql is not installed...going to install"
@@ -44,22 +45,4 @@ else
    echo "nginx is alredy installed...nothing to do"
 fi
 
-
-
-
-
-
-
-
-
-
- dnf install mysql -y
- 
- if [ $? -eq 0 ] # $? stores exit status value other than 0 everthing consider as failure
- then
-     echo "Installing mysql success"
-else
-    echo "Installing mysql failed"
-    exit 1
-fi
 
